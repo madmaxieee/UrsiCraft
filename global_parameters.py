@@ -1,0 +1,1 @@
+block_pick = 'stone'
