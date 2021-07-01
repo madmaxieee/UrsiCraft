@@ -1,12 +1,5 @@
-from perlin_noise import PerlinNoise
-
-noise1 = PerlinNoise(octaves=10, seed=1)
-
-for i in range(100):
-    print(noise1([0.1, i / 100]))
-
-
 # from ursina import *
+# from ursina.prefabs.first_person_controller import FirstPersonController
 
 
 # class Test_cube(Entity):
@@ -33,7 +26,7 @@ for i in range(100):
 
 
 # def update():
-#     if held_keys['a']:
+#     if held_keys['5']:
 #         square.x += 1 * time.dt
 
 
@@ -47,5 +40,7 @@ for i in range(100):
 
 # cube = Test_cube()
 # button = Test_button()
+
+# player = FirstPersonController()
 
 # app.run()
